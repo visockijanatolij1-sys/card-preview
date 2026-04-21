@@ -58,3 +58,32 @@ body{
     transition: all 0.3s ease 0s;
 }
 
+.card-content{
+    margin-left: 15px;
+}
+.sub-titile{
+    margin-left: 10px;
+    font-weight: 500;
+    color: #333;
+}
+.card-title {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.card-title:hover{
+    color: hsl(47, 88%, 63%);
+    transition: all 0.3s ease 0s;    
+
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+}
+
+.card-footer p{
+    font-weight: 700;
+}
